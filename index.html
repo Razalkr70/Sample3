@@ -1,0 +1,96 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title> 
+<body style="background-color:orange">
+  <style>
+   {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: powderblue;  
+}  
+button {   
+       background-color:#731d91;   
+       width: 100%;  
+        color: yellow;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: oval;   
+        cursor: pointer;   
+        border-style:solid;
+        border-color: black;
+      
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid blue;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 30px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;
+ }
+ .fbbutton{
+   background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 100px;
+}
+.twitbutton{
+  background-color: aqua ;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 1000px;
+}
+  
+</style>   
+</head>    
+<body>    
+    <center> <h1> <b> Login</b> </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+          
+            <button type="submit">Login</button>   
+           
+            <input type="checkbox" checked="checked"> Remember me   
+           <h3> <button type="button" class="cancelbtn"> Cancel</button> </h3>  
+            <h4>Forgot<a href="#"> password? </a> </h4>  
+            <h5><center>other way to sign in</center></h5>
+          <button type="submit" class="fbbutton">Facebook</button>
+          <button type="submit" class="twitbutton">twitter</button>
+        </div>   
+    </form>     
+</body>     
+</html>
